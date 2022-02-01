@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Noto Serif', serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-gray {
+  height: 100px;
+  width: 100vw;
+  background-color: #D8D8D8;
+  position: relative;
+}
+
+.corner {
+  height: 64px;
+  width: 64px;
+  background-color: #5B8FDC;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+
+.text-box {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 90%;
+  height: 175px;
+  margin-bottom: 20px;
+}
+
+.blue {
+  width: 100vw;
+  height: 225px;
+  background-color: #5B8FDC;
+}
+
+.light-blue {
+  width: 100vw;
+  height: 225px;
+  background-color: #7BE0C3;
+}
+
+.light-green {
+  width: 100vw;
+  height: 225px;
+  background-color: #C2E791;
+}
+
+.yellow {
+  width: 100vw;
+  height: 225px;
+  background-color: #F5E752;
+}
+
+.question-mark {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
